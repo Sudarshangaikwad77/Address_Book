@@ -4,6 +4,7 @@ import java.util.Scanner;
 public class Address_book
 {
     public static void main(String[] args) {
+        System.out.println("welcome to the address_book project");
         ArrayList<Contact> contacts = new ArrayList<Contact>();
         Scanner sc = new Scanner(System.in);
         boolean running = true;
