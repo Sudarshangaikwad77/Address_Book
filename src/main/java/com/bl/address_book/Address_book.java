@@ -41,6 +41,16 @@ public class Address_book
                 Contact contact = new Contact(firstName, lastName, address, city, state, zip, phoneNumber, email);
                 contacts.add(contact);
                 System.out.println("Contact added.");
+                System.out.println("Contact: " +
+                        contact.getFirstName() +" "+
+                        contact.getLastName() +" "+
+                        contact.getCity() +" "+
+                        contact.getPhoneNumber() +" "+
+                        contact.getState() +" "+
+                        contact.getEmail() +" "+
+                        contact.getZip() +" "+
+                        contact.getAddress());
+
             }
             else if (cm.equals("quit")) {
                 running = false;
